@@ -1,0 +1,27 @@
+{
+  "name": "derke",
+  "version": "1.0.0",
+  "description": "Very simple and changeable crypto library for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veysel/derke.git"
+  },
+  "keywords": [
+    "crypto",
+    "text crypto",
+    "text"
+  ],
+  "author": "veysel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veysel/derke/issues"
+  },
+  "homepage": "https://github.com/veysel/derke#readme",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
