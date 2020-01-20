@@ -1,4 +1,4 @@
-[![derke](./content/derke-logo.png)](https://github.com/veysel/derke)
+[![derke](https://raw.githubusercontent.com/veysel/derke/master/content/derke-logo.png)](https://github.com/veysel/derke)
 
 # derke
 
