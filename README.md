@@ -58,6 +58,11 @@ Custom:
 - "key" must be character (so length = 1)
 - All "value" lengths must be equal
 
+#### How to test new custom.js?
+```
+npm test
+```
+
 ### Performance derke
 
 - convert average time : 0.160 ms
