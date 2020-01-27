@@ -4,7 +4,8 @@
   "description": "Very simple and changeable crypto library for javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "nyc --reporter=lcov jasmine",
+    "coverage": "codecov"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/veysel/derke#readme",
   "devDependencies": {
-    "jasmine": "^3.5.0"
+    "codecov": "^3.6.2",
+    "jasmine": "^3.5.0",
+    "nyc": "^15.0.0"
   }
 }
