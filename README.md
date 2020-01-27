@@ -33,7 +33,7 @@ derke.reverse(cryptoText); // hello
 lib/config.js file customize.
 
 Old:
-```json
+```js
 {
     key: "a",
     value: "00000000000..."
@@ -41,7 +41,7 @@ Old:
 ```
 
 Custom:
-```json
+```js
 {
     key: "a",
     value: "00000000000..."
