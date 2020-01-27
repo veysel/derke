@@ -58,7 +58,7 @@ Custom:
 - "key" must be character (so length = 1)
 - All "value" lengths must be equal
 
-#### How to test new custom.js?
+#### How to test new custom config.js?
 ```
 npm test
 ```
