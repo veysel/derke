@@ -1,4 +1,4 @@
-[![derke](https://raw.githubusercontent.com/veysel/derke/master/content/derke-logo.png)](https://github.com/veysel/derke)
+[![derke](./content/derke-logo.png)](https://github.com/veysel/derke)
 
 # derke
 
@@ -19,16 +19,119 @@ npm install --save derke
 ```javascript
 const derke = require("derke");
 
-let text = "hello";
+// Text convert to crypto code
+derke.convert("hello"); // 00100000000010000000001000000000100000....
 
-let cryptoText = derke.convert(text);
-console.log(cryptoText); // 00100000000010000000001000000000100000....
-
-let pureText = derke.reverse(cryptoText);
-console.log(pureText); // hello
+// Crypto code convert to text
+derke.reverse(cryptoText); // hello
 ```
+
+### What is derke?
+![diagram](./content/derke-diagram.png)
+
+### What Changeable (Custom derke) ?
+lib/config.js file customize.
+
+Old:
+```json
+{
+    key: "a",
+    value: "00000000000..."
+}
+```
+
+Custom:
+```json
+{
+    key: "a",
+    value: "00000000000..."
+},
+{
+    key: "ş",
+    value: "00000000011..."
+}
+```
+
+#### Attention Important !
+- "key" must be unique
+- "value" must be unique
+- "key" must be character (so length = 1)
+- All "value" lengths must be equal
 
 ### Performance derke
 
 - convert average time : 0.160 ms
 - reverse average time : 0.70 ms
+
+### Standart character list
+| key   |
+|:-----:|
+| 0     |
+| 1     |
+| 2     |
+| 3     |
+| 4     |
+| 5     |
+| 6     |
+| 7     |
+| 8     |
+| 9     |
+| -     |
+| .     |
+| ,     |
+| ?     |
+| !     |
+| (     |
+| )     |
+| space |
+| a     |
+| b     |
+| c     |
+| d     |
+| e     |
+| f     |
+| g     |
+| h     |
+| i     |
+| j     |
+| k     |
+| l     |
+| m     |
+| n     |
+| o     |
+| p     |
+| q     |
+| r     |
+| s     |
+| t     |
+| u     |
+| v     |
+| w     |
+| x     |
+| y     |
+| z     |
+| A     |
+| B     |
+| C     |
+| D     |
+| E     |
+| F     |
+| G     |
+| H     |
+| I     |
+| J     |
+| K     |
+| L     |
+| M     |
+| N     |
+| O     |
+| P     |
+| Q     |
+| R     |
+| T     |
+| U     |
+| V     |
+| W     |
+| X     |
+| Y     |
+| Z     |
