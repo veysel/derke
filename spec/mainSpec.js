@@ -19,4 +19,8 @@ describe("main test", function () {
 
         expect(main.reverse(main.convert(testText))).toEqual(testText);
     });
+
+    it("check reverse return error test", function () {
+        expect(main.reverse("000") instanceof Error).toEqual(true);
+    });
 });
