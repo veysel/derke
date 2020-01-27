@@ -6,6 +6,7 @@ Very simple and changeable crypto library for javascript
 
 [![npm version](https://badge.fury.io/js/derke.svg)](https://www.npmjs.com/package/derke)
 [![Build Status](https://travis-ci.com/veysel/derke.svg?branch=master)](https://travis-ci.com/veysel/derke)
+[![codecov](https://codecov.io/gh/veysel/derke/branch/master/graph/badge.svg)](https://codecov.io/gh/veysel/derke)
 
 ### Install derke
 
