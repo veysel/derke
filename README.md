@@ -133,6 +133,7 @@ npm test
 | P     |
 | Q     |
 | R     |
+| S     |
 | T     |
 | U     |
 | V     |
